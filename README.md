@@ -1,0 +1,2 @@
+# MNTN_Rithish
+This is a MNTN HIKING GUIDE WEBSITE
