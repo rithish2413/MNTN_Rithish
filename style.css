@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: #0B1D26;
+}
+.Intro-page{
+  width: 1920px;
+}
+
+.BG-Hero{
+    position: absolute;
+    z-index: 2;            
+    top: 0;
+    width: 1920px;
+    height: 1200px;
+    background: linear-gradient(330.24deg, rgba(11,29,38,0) 31.06%, #0B1D26 108.93%);
+}
+
+.BG-content{
+    width: 1920px;
+    height: 1200px;
+    position: absolute;
+    top: 720px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+
+.HG{            
+    position: relative;    
+    z-index: 0;
+    width: 1920px;
+    height: 1523px;     
+    background: url("HG.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.MG{
+    width: 1920px;
+    height: 1422px;
+    position: absolute;
+    top: 464px;
+    background:url("MG.svg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.VG{
+    width: 1920px;
+    height: 926px;  
+    position: absolute;
+    top: 348px;
+    background: url("VG.svg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+    display: inline-block;
+}
+
+a:hover{
+    transform:scale(1.4);
+    color:pink;
+}
+
+header{
+    position: absolute;
+    top: 20px;
+    z-index: 5;
+}
+.header-navbar{
+    width: 1760px;
+    height: 25px;
+    position:relative;
+    left: 100px;
+    padding-top:45px;
+}
+
+
+.account{
+    margin-right: 90px;
+    font-size: 25px;
+}
+
+.accdp{
+    margin-right: 10px;
+}
+
+.header-links{
+    size:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    font-family:"Gilroy",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;   
+    list-style:none; 
+}
+.acc-part{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    font-size:18px;
+    font-weight:700;
+}
+
+.social-media{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    position: absolute;
+    z-index: 999;
+    width:100px;
+    color:#FFFFFF;
+    height: 173px;
+    top:215px;
+    left: 120px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:170px;
+    margin-left:-40px;
+}
+.twitter{
+    margin-top:-40px;
+}
+.social-media p{
+        
+    transform: rotate(90deg);      
+    transform-origin: center; 
+    font-size:18px;
+    font-weight:700;
+    font-family:"Gilroy",sans-serif;
+    letter-spacing:0px;
+}
+
+.page-selector{
+    border: 2px solid black;
+    height: 280px;
+}
+
+.page-selector a{
+   font-size: 30px;
+   color: #333333;
+}
+
+.page-selector p{
+    font-size: 35px;
+    color: black
+}
+
+.center-content{
+    display:flex;
+    gap:250px;
+    position: absolute;
+    z-index: 10;
+    top: 287px;
+    left: 500px;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:55px;
+}
+.group-17{
+    font-family: "Gilroy",sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color:#FBD784;
+    display:flex;
+    gap:25px;
+}
+.line{
+  width: 50px;
+  border: 0;
+  border-top: 4px solid #FBD784 ;
+  margin: 1rem 0;
+  height: 0;
+}
+
+.line-2{
+     width: 80px;
+    border: 0;
+    border-top: 4px solid #FBD784 ;
+    margin: 1rem 0;
+    height: 0;
+}
+.caption{
+    width: 950px;
+    height: 200px;
+    font-family: Chronicle Display;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color:#FFFFFF;
+}
+.scroll-down{
+    display:flex;
+    justify-content:sapce-between;
+    align-items:center;
+    color:#FFFFFF;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    gap:30px;
+}
+.page-selector{
+    display:flex;
+    gap:10px;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width: 77px;
+    height: 240px;
+    color:rgba(255, 255, 255, 1);
+    font-size:18px;   
+}
+
+.main-content{
+    position: absolute;
+    top:1440px;
+}
+.pages{
+    width: 1462px;
+    height: 3040px;
+    left: 229px;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    gap:200px;
+}
+.tag-line{
+    display:flex;
+    color:#FBD784;
+    align-items:center;
+    gap:25px;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:200px;
+    margin-top:-180px;
+}
+.box-1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;    
+    width: 632px;
+    height: 439px;
+    opacity: 1;
+    margin-top: -130px;
+    margin-left: 130px;
+}
+.quote{
+    width: 555px;
+    height: 154px;
+    opacity: 1;
+    color:#FFFFFF;
+    font-family: Chronicle Display;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.info{
+    width: 632px;
+    height: 160px;
+    font-family: "Gilroy",sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color:#FFFFFF;
+}
+
+.img{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+.img a{
+    color:#FBD784;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.box-2{
+    position:absolute;
+    left:800px;
+    top:1310px;
+}
+.img-2{
+    position:relative;
+    left:800px;
+    top:-730px;
+}
+.page-4{
+    margin-top:-300px;
+}
+
+footer{
+    display:flex;
+    gap:520px;
+    padding-bottom: 100px;
+}
+
+#logo{
+    width: 303px;
+    height: 64px;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color:#FFFFFF;
+    padding-top:30px;
+}
+.copyright{
+    width: 353px;
+    height: 32px;
+    opacity: 0.5;
+    color:#FFFFFF;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top:125px;
+}
+
+
+.footer-links{
+    display:flex;
+    gap:140px;
+}
+.links-1{
+    height: 280px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+.links-2{
+    display:flex;
+    flex-direction:column;
+    width: 161px;
+    height: 184px;
+}
+.links-p{
+    width: 193px;
+    height: 32px;
+    color:#FBD784;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding:20px;
+}
+.foot-links{
+    height: 280px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    padding:0;
+}
+.foot-links-2{
+    width: 161px;
+    height: 184px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+}
+
+ul.foot-links{
+    margin-right: 100px;
+    
+}
+
+.login-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(11, 29, 38, 0.95);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        .login-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .login-content {
+            background: rgba(27, 53, 65, 0.9);
+            border-radius: 15px;
+            overflow: hidden;
+            width: 90%;
+            max-width: 450px;
+           
+            transform: scale(0.9);
+            border: 1px solid #FBD784;
+        }
+        
+       
+        
+        .login-header {
+            position: relative;
+            height: 180px;
+            background: url('logmount.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        
+        .login-header h2 {
+            color:white;
+            font-size: 32px;
+            z-index: 1;
+            position: relative;
+            font-family: "Gilroy", sans-serif;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        
+        .login-form {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #FBD784;
+            font-family: "Gilroy", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 5px;
+            border: 2px solid rgba(251, 215, 132, 0.3);
+            border-radius: 8px;
+            background: rgba(11, 29, 38, 0.7);
+            color: white;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        
+        
+        .login-btn {
+            width: 100%;
+            padding: 16px;
+            background: #FBD784;
+            color: #0B1D26;
+            border: none;
+            border-radius: 8px;
+            font-family: "Gilroy", sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .close-login {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #FBD784;
+            font-size: 28px;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+    
